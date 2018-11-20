@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>ADA STUDENT FEEDBACK</title>
+        <html lang="en"></html>
+        <link rel="icon" href="res/logo.png"type="image/png">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+        
+        <h1><span>ADA</span> Students feedback</h1>
+    </head>
+    <body>
+        <div class="all">
+            <div class="gauche">
+                <img src="res/wwy.png" alt="wwy"><br>
+                <h3>To give us feedback, because this course is made for you! Because it's all about you!</h3><br>
+                <p>Fill this form if you:</p>
+                <ul>
+                    <li>Find an error in the content or in the quizzes</li> 
+                    <li>Have a feedback about instructors or the experience</li> 
+                    <li>Have a suggestion on how to make the course better</li>
+                </ul>
+            </div>  
+            <div class="droite">
+                <form id="contactForm">
+                    <h3>Email Us</h3>
+                    <p id="p1">
+                    <labe>Name  </labe><br>                     
+                    <input type="text" name="fname" placeholder="Name" id="name"><br>
+                    </p>
+                    <p id="p2">
+                    <label>Track</label><br>
+                    <select name="track" id="track">
+                    <option value="AI">AI</option>
+                    <option value="WEB">Web</option>
+                    <option value="GAME">Game</option>
+                    </select>
+                    </p>
+                    <p>
+                    <label>Slide Name (Or Object):</label><br>
+                    <input type="text" name="slide" required="true" id="slide">
+                    </p>
+                    <p>
+                    <label>Message:</label><br>
+                    <textarea name="Message" row="10" id="msg"></textarea>
+                    </p>
+                    <p class="sub">
+                    <br><button id="SUB" type="submit">Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>  
+
+      <script src="js/main.js"></script>
+    </body>
+    
+</html>
